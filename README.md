@@ -42,7 +42,7 @@ ETL is the process that extracts, transforms, and loads data from multiple sourc
    
  
     
-##### EXTRACTION:
+##### 1.EXTRACTION:
 
 -	Download data information using 2 differnt methods of scraping;
 
@@ -73,13 +73,13 @@ ETL is the process that extracts, transforms, and loads data from multiple sourc
     * 3rd Table
         -	Indian States.(PK)
 
-##### TRANSFORMATION:
+##### 2.TRANSFORMATION:
 
 - Fix the different dataframes to be able to merge them.
 - Test if the identification values (Indian States) coincide by the megre Pandas method.
 
 
-##### LOAD:
+##### 3.LOAD:
 
 -	Assign the links between the tables.   
 -	Prepare the Tables to upload them to the SQL data base.
